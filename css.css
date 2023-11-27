@@ -1,0 +1,427 @@
+.header{
+    background-color: black;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.left_top_header{
+    position: absolute;
+    left: 32px;
+}
+
+.lupa{
+    position: absolute;
+    left: 117px;
+}
+
+.right_top_header{
+    position: absolute;
+    right: 41px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head{
+    background-color: rgb(254, 229, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biggest_man{
+    width: 386px;
+    height: 367px;
+}
+
+.fashion{
+    width: 283px;
+    height: 78px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.one_line{
+    text-align: center;
+    margin: 64px auto auto;
+}
+
+.one_photo{
+    max-width: 231px;
+    filter: brightness(50%);
+    position: relative;
+}
+
+.one_text{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -450px;
+    width: 150px;
+}
+
+.two_photo{
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 231px;
+    filter: brightness(50%);
+    position: relative;
+}
+
+.two_text{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -450px;
+}
+
+.three_photo{
+    max-width: 231px;
+    filter: brightness(50%);
+    position: relative;
+}
+
+.three_text{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -450px;
+}
+
+
+
+
+
+
+
+.two_line{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.long{
+    max-width: 734px;
+    position: relative;
+    filter: brightness(50%);
+}
+
+.long_text{
+    width: 200px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -460px;
+}
+
+
+
+
+.three_line{
+    text-align: center;
+    margin-top: 109px;
+}
+
+
+
+
+
+
+
+
+.fourth_line{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.lady{
+    filter: brightness(30%);
+    position: relative;
+}
+
+.rama{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -450px;
+
+}
+
+.korzina{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: -440px;
+}
+
+.add{
+    position: absolute;
+    margin-top: 465px;
+    margin-left: -400px;
+}
+
+.h_text{
+    max-width: 360px;
+}
+
+.p_text{
+    max-width: 360px;
+}
+
+
+
+
+.fifth_line{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.h_text{
+    max-width: 360px;
+}
+
+.p_text{
+    max-width: 360px;
+}
+
+
+
+
+
+.sixth_line{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.h_text{
+    max-width: 360px;
+}
+
+.p_text{
+    max-width: 360px;
+}
+
+p{
+    color: gray;
+}
+
+.price{
+    color: rgb(247, 156, 171);
+}
+
+
+
+
+
+.footer{
+    max-width: 250px;
+    border: 1px solid rgb(251, 112, 158);
+    color: rgb(251, 112, 158);
+    text-align: center;
+    margin: 60px auto;
+}
+
+.footer_text{
+    color: rgb(251, 112, 158);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px){
+    .new_forma{
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 767px){
+    body{
+        display: inline-block;
+    }
+    .right_top_header{
+        display: none;
+    }
+
+    .header{
+        width: 100%;
+        position: relative;
+        height: 74px;
+    }
+
+    .new_forma{
+        right: 16px;
+        position: absolute;
+    }
+
+    .head{
+        width: 100%;
+        height: 363px;
+    }
+
+    .biggest_man{
+        display: none;
+    }
+
+
+
+
+    .one_line{
+        position: relative;
+    }
+
+    .one_photo{
+        min-width: 94%;
+    }
+
+    .two_photo{
+        margin-top: 32px;
+        min-width: 94%;
+    }
+
+    .three_photo{
+        margin-top: 32px;
+        min-width: 94%;
+    }
+
+    .long{
+        margin-top: 32px;
+        width: 94%;
+    }
+
+
+
+
+    
+    .fourth_line{
+        margin-left: 20px;
+        width: 767px;
+    }
+
+    .first_photo{
+        margin: 20px auto auto;
+        width: 767px;
+    }
+
+
+
+
+
+    .fourth_one_line{
+        margin-left: 20px;
+        width: 767px;
+    }
+
+
+
+    .lady{
+        margin: 20px auto auto;
+        width: 767px;
+        position: relative;
+    }
+
+
+
+    .fifth_line{
+        margin-left: 20px;
+        width: 767px;
+    }
+
+    .third_photo{
+        margin: 20px auto auto;
+        width: 767px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .fifth_one_line{
+        margin-left: 20px;
+        width: 767px;
+    }
+
+    .fourth_photo{
+        margin: 20px auto auto;
+        width: 767px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .sixth_line{
+        margin-left: 20px;
+        width: 767px;
+    }
+
+    .sixth_photo{
+        margin: 20px auto auto;
+        width: 767px;
+    }
+
+
+    .sixth_one_line{
+        margin-left: 20px;
+        width: 767px;
+    }
+
+    .sixth_photo{
+        margin: 20px auto auto;
+        width: 767px;
+    }
+}
+
+
+
+
+    .h_text{
+        margin-left: 20px;
+    }
+
+    .p_text{
+        min-width: 767px;
+        margin-left: 20px;
+    }
+
+
+    .price{
+        margin-left: 20px;
+    }
